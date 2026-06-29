@@ -76,7 +76,9 @@ export default function Skills() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
         >
-          <span className="section-label">// technical stack</span>
+          <span className="section-label">
+            {"// technical stack"}
+          </span>
           <h2 className="section-title">
             Skills &amp; <span className="gradient-text">Technologies</span>
           </h2>
