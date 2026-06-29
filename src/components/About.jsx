@@ -23,7 +23,9 @@ export default function About() {
           transition={{ duration: 0.7 }}
         >
           <div className="about__text">
-            <span className="section-label">// about me</span>
+            <span className="section-label">
+              About me
+            </span>
             <h2 className="section-title">
               Crafting <span className="gradient-text">Intelligent</span> Solutions
             </h2>

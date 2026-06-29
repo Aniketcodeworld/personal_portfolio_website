@@ -35,7 +35,9 @@ export default function Contact() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
         >
-          <span className="section-label">// say hello</span>
+          <span className="section-label">
+            Say hello
+          </span>
           <h2 className="section-title">
             Get In <span className="gradient-text">Touch</span>
           </h2>

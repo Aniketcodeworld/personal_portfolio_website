@@ -30,11 +30,15 @@ export default function Navbar() {
   return (
     <nav className={`nav${scrolled ? ' nav--scrolled' : ''}`}>
       <div className="container nav__inner">
-        <a className="nav__logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-          <span className="nav__logo-bracket">&lt;</span>
-          <span className="gradient-text">AM</span>
-          <span className="nav__logo-bracket">/&gt;</span>
-        </a>
+        <button
+  type="button"
+  className="nav__logo"
+  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+>
+  <span className="nav__logo-bracket">&lt;</span>
+  <span className="gradient-text">AM</span>
+  <span className="nav__logo-bracket">/&gt;</span>
+</button>
 
         <ul className="nav__links">
           {links.map((l) => (

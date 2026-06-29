@@ -175,7 +175,9 @@ export default function Experience() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
         >
-          <span className="section-label">// journey</span>
+          <span className="section-label">
+            {"// journey"}
+          </span>
           <h2 className="section-title">
             Experience &amp; <span className="gradient-text">Timeline</span>
           </h2>

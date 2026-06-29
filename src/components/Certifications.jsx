@@ -16,7 +16,9 @@ export default function Certifications() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
         >
-          <span className="section-label">// achievements</span>
+          <span className="section-label">
+          Achievements
+            </span>
           <h2 className="section-title">
             Certifications &amp; <span className="gradient-text">Awards</span>
           </h2>

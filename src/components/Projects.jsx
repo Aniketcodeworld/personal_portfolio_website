@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { FiGithub, FiExternalLink, FiChevronDown, FiChevronUp } from 'react-icons/fi';
+import { FiGithub, FiChevronDown, FiChevronUp } from 'react-icons/fi';
 import { projects } from '../data/portfolioData';
 
 const categories = ['All', 'Full Stack', 'AI/ML', 'Data Science'];
@@ -219,7 +219,9 @@ export default function Projects() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
         >
-          <span className="section-label">// work</span>
+          <span className="section-label">
+            {"// work"}
+            </span>
           <h2 className="section-title">
             Featured <span className="gradient-text">Projects</span>
           </h2>
